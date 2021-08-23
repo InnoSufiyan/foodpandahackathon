@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkgreen: #355404;
+    --green: #2c850d;
+    --lightgreen: #75b834;
+    --anothergreen: #7fb466;
+    --white: #c1edb0;
+    --yellowish: #bed467;
+  }
+
+.page {
+    height: 130vh;
+}
+
+.container-fluid {
+    background-image: linear-gradient(-45deg, var(--green), var(--lightgreen));
+}
+
+.dropdown-menu {
+    background-color: var(--green);
+}
+
+.dropdownColor:hover {
+    background-color: var(--lightgreen);
+    color: white;
+}
+
+.signform {
+    margin-top: 5%;
+    /* background-color: #75b834; */
+    height: 60vh;
+}
+
+.heading {
+    border-bottom: 2px solid var(--white);
+}
+
+.subHeading {
+    margin: 30px;
+    color: var(--white);
+}
+.subHeading-active {
+    margin: 30px;
+    color: var(--yellowish);
+}
+
+.yellowish {
+    color: var(--yellowish)
+}
+.whitish {
+    color: var(--white);
+}
+
+input {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--anothergreen);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid var(--lightgreen);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: none;
+    outline: none;
+}
+
+::placeholder {
+    color: var(--white);
+}
+
+button {
+    background-color: var(--darkgreen);
+    width: 35%;
+    color: var(--white);
+    border: 2px solid var(--anothergreen);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h5 {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--anothergreen);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+h5:hover {
+    background-color: var(--lightgreen);
+    color: var(--white);
+    border: 2px solid var(--anothergreen);
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+h6 {
+    color: var(--white);
+}
+
+h6 a {
+    color: var(--yellowish);
+}
